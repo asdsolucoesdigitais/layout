@@ -2,10 +2,46 @@ import StyleHome from "./Home.module.scss";
 
 export default function Home() {
     return (
-        <section className={StyleHome.l_home}>
-            <div className={StyleHome.l_perfil}>l_perfil</div>
-            <div className={StyleHome.l_menu}>l_menu</div>
-            <div className={StyleHome.l_content}>l_content</div>
+        <section>
+            <div className={StyleHome.row}>
+                <div className={StyleHome.col_3}>
+                    <ul>
+                        <li>The Flight</li>
+                        <li>The City</li>
+                        <li>The Island</li>
+                        <li>The Food</li>
+                    </ul>
+                </div>
+
+                <div className={StyleHome.col_6}>
+                    <h1>The City</h1>
+                    <p>
+                        Chania is the capital of the Chania region on the island
+                        of Crete. The city can be divided in two parts, the old
+                        town and the modern city.
+                    </p>
+                </div>
+
+                <div className={StyleHome.col_3}>
+                    <div className={StyleHome.aside}>
+                        <h2>What?</h2>
+                        <p>Chania is a city on the island of Crete.</p>
+                        <h2>Where?</h2>
+                        <p>Crete is a Greek island in the Mediterranean Sea.</p>
+                        <h2>How?</h2>
+                        <p>
+                            You can reach Chania airport from all over Europe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className={StyleHome.footer}>
+                <p>
+                    Resize the browser window to see how the content respond to
+                    the resizing.
+                </p>
+            </div>
         </section>
     );
 }
