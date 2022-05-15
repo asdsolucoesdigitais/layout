@@ -1,0 +1,18 @@
+@import "styles/variables";
+
+.l_home {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+}
+
+.l_perfil {
+    background: $caput_mortuum;
+}
+
+.l_menu {
+    background: $caput_mortuum;
+}
+
+.l_content {
+    background: $caput_mortuum;
+}
