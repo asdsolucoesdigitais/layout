@@ -5,43 +5,32 @@ export default function Home() {
         <section>
             <div className={StyleHome.row}>
                 <div className={StyleHome.col_3}>
-                    <ul>
-                        <li>The Flight</li>
-                        <li>The City</li>
-                        <li>The Island</li>
-                        <li>The Food</li>
-                    </ul>
+                    <div className={StyleHome.perfil}>
+                        <h1>
+                            Perfil
+                        </h1>
+                    </div>
                 </div>
 
-                <div className={StyleHome.col_6}>
-                    <h1>The City</h1>
-                    <p>
-                        Chania is the capital of the Chania region on the island
-                        of Crete. The city can be divided in two parts, the old
-                        town and the modern city.
-                    </p>
+                <div className={StyleHome.col_1}>
+                    <div className={StyleHome.menu}>
+                        <ul>
+                            <li>
+                                A
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div className={StyleHome.col_3}>
-                    <div className={StyleHome.aside}>
-                        <h2>What?</h2>
-                        <p>Chania is a city on the island of Crete.</p>
-                        <h2>Where?</h2>
-                        <p>Crete is a Greek island in the Mediterranean Sea.</p>
-                        <h2>How?</h2>
-                        <p>
-                            You can reach Chania airport from all over Europe.
-                        </p>
+                <div className={StyleHome.col_8}>
+                    <div className={StyleHome.content}>
+                        <h1>
+                            Content
+                        </h1>
                     </div>
                 </div>
             </div>
 
-            <div className={StyleHome.footer}>
-                <p>
-                    Resize the browser window to see how the content respond to
-                    the resizing.
-                </p>
-            </div>
         </section>
     );
 }
