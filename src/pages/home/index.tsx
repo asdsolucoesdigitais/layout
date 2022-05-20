@@ -1,4 +1,5 @@
 import StyleHome from "./Home.module.scss";
+import Menu from "components/menu";
 
 export default function Home() {
     return (
@@ -14,20 +15,7 @@ export default function Home() {
 
                 <div className={StyleHome.col_1}>
                     <div className={StyleHome.menu}>
-                        <ul>
-                            <li>
-                                A
-                            </li>
-                            <li>
-                                A
-                            </li>
-                            <li>
-                                A
-                            </li>
-                            <li>
-                                A
-                            </li>
-                        </ul>
+                        <Menu />
                     </div>
                 </div>
 

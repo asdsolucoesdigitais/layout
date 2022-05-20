@@ -8,11 +8,7 @@
 
 [class*="col_"] {
     float: left;
-    padding: 15px;
-}
-
-html {
-    font-family: "Lucida Sans", sans-serif;
+    padding: 10px;
 }
 
 .menu ul {
@@ -22,10 +18,13 @@ html {
 }
 
 .menu li {
-    padding: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
     background-color: $antique_brass;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
 }
 
 .menu li:hover {
@@ -35,6 +34,7 @@ html {
 .perfil {
     background-color: $antique_brass;
     padding: 10px;
+    border-radius: 20px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -44,6 +44,7 @@ html {
 .menu {
     background-color: $antique_brass;
     padding: 10px;
+    border-radius: 20px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -54,6 +55,7 @@ html {
 .content {
     background-color: $antique_brass;
     padding: 10px;
+    border-radius: 20px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -69,14 +71,16 @@ html {
     /* For tablets: */
     .menu ul {
         display: flex;
+        justify-content: space-around;
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 
     .menu {
-        background-color: red;
+        background-color: $antique_brass;
         padding: 10px;
+        border-radius: 20px;
         color: #ffffff;
         text-align: center;
         font-size: 14px;
@@ -84,23 +88,7 @@ html {
     }
 
     .menu li {
-        width: 25%;
-    }
-
-    .col_1 {
-        width: 100%;
-    }
-
-    .col_3 {
-        width: 100%;
-    }
-
-    .col_8 {
-        width: 100%;
-    }
-
-    .col_12 {
-        width: 100%;
+        border-radius: 20px;
     }
 }
 
