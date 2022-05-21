@@ -1,5 +1,6 @@
 import StyleHome from "./Home.module.scss";
 import Menu from "components/menu";
+import Perfil from "components/perfil";
 
 export default function Home() {
     return (
@@ -7,9 +8,7 @@ export default function Home() {
             <div className={StyleHome.row}>
                 <div className={StyleHome.box_perfil}>
                     <div className={StyleHome.perfil}>
-                        <h1>
-                            Perfil
-                        </h1>
+                        <Perfil />
                     </div>
                 </div>
 
