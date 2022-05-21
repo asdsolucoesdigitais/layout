@@ -7,7 +7,7 @@ export default function Credentials() {
                 Guilherme Amorim
             </div>
             <div className={StyleCredentials.sub_title}>
-                Full Stack
+                Desenvolvedor Full Stack
             </div>
         </div>
     )
