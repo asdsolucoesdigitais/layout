@@ -4,6 +4,9 @@ import {
     faWhatsapp,
     faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+    faUser
+} from '@fortawesome/free-solid-svg-icons';
 import { ExternalLink } from "react-external-link";
 
 export default function Menu() {
@@ -23,15 +26,20 @@ export default function Menu() {
             icon: faGithub,
             link: "https://github.com/GuilhermeDeOliveiraAmorim",
         },
+        {
+            id: 4,
+            icon: faUser,
+            link: "#",
+        },
     ];
     return (
         <ul>
             {menuIcons.map((icon) => (
-                <ExternalLink href={icon.link}>
-                    <li key={icon.id}>
+                <li key={icon.id}>
+                    <ExternalLink href={icon.link}>
                         <FontAwesomeIcon icon={icon.icon} />
-                    </li>
-                </ExternalLink>
+                    </ExternalLink>
+                </li>
             ))}
         </ul>
     );
