@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <section>
             <div className={StyleHome.row}>
-                <div className={StyleHome.box_3}>
+                <div className={StyleHome.box_perfil}>
                     <div className={StyleHome.perfil}>
                         <h1>
                             Perfil
@@ -13,13 +13,13 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className={StyleHome.box_1}>
+                <div className={StyleHome.box_menu}>
                     <div className={StyleHome.menu}>
                         <Menu />
                     </div>
                 </div>
 
-                <div className={StyleHome.box_8}>
+                <div className={StyleHome.box_content}>
                     <div className={StyleHome.content}>
                         <h1>
                             Content
