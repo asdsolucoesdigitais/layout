@@ -1,12 +1,15 @@
+import StyleMenu from "./Menu.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
     faWhatsapp,
     faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-    faUser
-} from '@fortawesome/free-solid-svg-icons';
+import { 
+    faUser,
+    faSuitcase,
+    faCertificate
+} from "@fortawesome/free-solid-svg-icons";
 import { ExternalLink } from "react-external-link";
 
 export default function Menu() {
@@ -31,16 +34,27 @@ export default function Menu() {
             icon: faUser,
             link: "#",
         },
+        {
+            id: 5,
+            icon: faSuitcase,
+            link: "#",
+        },
+        {
+            id: 6,
+            icon: faCertificate,
+            link: "#",
+        },
     ];
     return (
-        <ul>
+        <>
             {menuIcons.map((icon) => (
-                <li key={icon.id}>
-                    <ExternalLink href={icon.link}>
-                        <FontAwesomeIcon icon={icon.icon} />
-                    </ExternalLink>
-                </li>
+                <ExternalLink key={icon.id} href={icon.link}>
+                    <FontAwesomeIcon
+                        icon={icon.icon}
+                        className={StyleMenu.item}
+                    />
+                </ExternalLink>
             ))}
-        </ul>
+        </>
     );
 }
