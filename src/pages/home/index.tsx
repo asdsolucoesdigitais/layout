@@ -16,7 +16,7 @@ import Commits from "components/commits";
 import Skills from "components/skills";
 
 export default function Home() {
-    const [changeContent, setContent] = useState(<Certifications />);
+    const [changeContent, setContent] = useState(<About />);
     const menuIcons = [
         {
             id: 4,
@@ -65,7 +65,7 @@ export default function Home() {
                         ))}
                     </div>
                 </div>
-
+                
                 <div className={StyleHome.box_content}>
                     <div className={StyleHome.content}>{changeContent}</div>
                 </div>
