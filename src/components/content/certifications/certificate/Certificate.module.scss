@@ -1,3 +1,5 @@
+@import "styles/variables";
+
 .card {
     display: flex;
     border-radius: 20px;
@@ -5,11 +7,12 @@
     margin-right: 5px;
     padding: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 10px;
 }
 
 .photo {
     border-radius: 20px;
-    height: 70px;
+    height: 60px;
 }
 
 .link {
@@ -34,9 +37,11 @@
     h2 {
         font-size: 15px;
         text-align: left;
+        margin-bottom: 5px;
     }
     p {
-        font-size: 10px;
+        font-size: 12px;
         text-align: left;
+        margin-bottom: 2px;
     }
 }
