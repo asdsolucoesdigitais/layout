@@ -12,6 +12,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Experience from "components/content/experience";
+import Commits from "components/commits";
+import Skills from "components/skills";
 
 export default function Home() {
     const [changeContent, setContent] = useState(<Certifications />);
@@ -38,6 +40,12 @@ export default function Home() {
                 <div className={StyleHome.box_perfil}>
                     <div className={StyleHome.perfil}>
                         <Perfil />
+                    </div>
+                    <div className={StyleHome.perfil}>
+                        <Skills />
+                    </div>
+                    <div className={StyleHome.perfil}>
+                        <Commits />
                     </div>
                 </div>
 
