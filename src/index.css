@@ -130,7 +130,7 @@ table {
 }
 
 body {
-	background-color: #CCB6A5;
+	background: linear-gradient(90deg, rgb(110, 70, 55) 50%, rgb(124, 101, 84) 100%);
 }
 
 * {
