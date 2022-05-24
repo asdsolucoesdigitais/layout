@@ -41,10 +41,10 @@ export default function Home() {
                     <div className={StyleHome.perfil}>
                         <Perfil />
                     </div>
-                    <div className={StyleHome.perfil}>
+                    <div className={StyleHome.skills}>
                         <Skills />
                     </div>
-                    <div className={StyleHome.perfil}>
+                    <div className={StyleHome.commits}>
                         <Commits />
                     </div>
                 </div>

@@ -1,0 +1,16 @@
+@import "styles/variables";
+
+.certifications {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+.certifications_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
